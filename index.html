@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>学习示例</title>
+</head>
+<script type="text/javascript" src='js/lib/jquery-1.11.0.min.js'></script>
+<script type="text/javascript" src='js/lib/jquery.paddingchange.plugin.js'></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		//示范用法
+		$('#catagory').paddingChange({animatePadding:30,hoverColor:'Black'});
+		
+		// $('catagory a').hover(function(){
+		// 	$(this).animate({paddingLeft:'20px'},{queue:false,duration:500});
+		// },function () {
+		// 	$(this).animate({paddingLeft:'0'},{queue:true,duration:500});
+		// })
+	})
+</script>
+<body>
+	<ul id="catagory">
+		<li><a href="#">jQuery</a></li>
+		<li><a href="#">Asp.net</a></li>
+		<li><a href="#">Sql Server</a></li>
+		<li><a href="#">CSS</a></li>
+	</ul>
+</body>
+</html>
