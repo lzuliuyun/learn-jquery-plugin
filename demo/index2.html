@@ -8,14 +8,11 @@
 <script type="text/javascript" src='js/lib/jquery.paddingchange.plugin.js'></script>
 <script type="text/javascript">
 	$(document).ready(function(){
-		//示范用法
-		$('#catagory').paddingChange({animatePadding:30,hoverColor:'Black'});
-		
-		// $('catagory a').hover(function(){
-		// 	$(this).animate({paddingLeft:'20px'},{queue:false,duration:500});
-		// },function () {
-		// 	$(this).animate({paddingLeft:'0'},{queue:true,duration:500});
-		// })
+		$.sayHello = function(name) {
+		        console.log('Hello,' + (name ? name : 'World') + '!');
+		}
+		$.sayHello(); //调用		
+		//$('#catagory a').css('color','red');
 	})
 </script>
 <body>
